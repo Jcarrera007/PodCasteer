@@ -7,7 +7,7 @@ const https = require('https');
 // ── Update check ──────────────────────────────────────────────────────────────
 // Set your GitHub repo here to enable automatic update notifications.
 // Format: 'https://api.github.com/repos/YOUR_USERNAME/PodCasteer/releases/latest'
-const RELEASES_API_URL = '';
+const RELEASES_API_URL = 'https://api.github.com/repos/Jcarrera007/PodCasteer/releases/latest';
 
 function checkForUpdates(win) {
   if (!RELEASES_API_URL) return;
