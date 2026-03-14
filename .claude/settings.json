@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(powershell.exe -Command \"Select-String -Pattern ''PodCasteer'' -Path ''C:\\\\Users\\\\Zekki\\\\Desktop\\\\PodCasteer\\\\frontend\\\\dist\\\\assets\\\\*.js'' | Select-Object -First 5\")"
+    ]
+  }
+}

@@ -33,6 +33,7 @@
     "directories": {
       "output": "dist-electron"
     },
+    "artifactName": "${productName} Setup.exe",
     "win": {
       "target": [{ "target": "nsis", "arch": ["x64"] }],
       "icon": "electron/icon.png"
